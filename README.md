@@ -38,4 +38,143 @@ Key business benefits include:
 - Track important financial KPIs including Interest Rate and Debt-to-Income (DTI) Ratio.
 - Support strategic business decisions with interactive dashboards and real-time performance monitoring.
 - Reduce manual reporting efforts through automated data analysis and visualization.
-  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📂 Dataset Information
+
+The dataset used in this project contains historical bank loan records that help analyze lending performance, borrower characteristics, repayment behavior, and overall loan portfolio health.
+
+### Dataset Features
+
+The dataset includes information related to:
+
+- Loan ID
+- Customer ID
+- Loan Status
+- Issue Date
+- Loan Amount
+- Funded Amount
+- Total Amount Received
+- Interest Rate
+- Debt-to-Income (DTI) Ratio
+- Loan Term
+- Loan Purpose
+- Employment Length
+- Home Ownership
+- Annual Income
+- State
+- Address State
+- Grade
+- Sub Grade
+- Verification Status
+
+### Dataset Purpose
+
+The dataset is used to:
+
+- Analyze loan applications and funding trends.
+- Measure loan repayment performance.
+- Identify Good Loans and Bad Loans.
+- Evaluate borrower financial characteristics.
+- Generate business KPIs.
+- Build interactive dashboards for decision-making.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  ## 🗄️ SQL Analysis
+
+Microsoft MYSQL is used to create the database, import the dataset, clean the data, and perform business analysis before connecting the data to Power BI.
+
+### SQL Tasks Performed
+
+- Creating the database
+- Creating tables
+- Importing loan data
+- Data cleaning
+- Data transformation
+- Writing business queries
+- Aggregating loan metrics
+- Calculating KPIs
+- Comparing SQL results with Power BI
+
+### SQL Concepts Used
+
+- SELECT
+- WHERE
+- GROUP BY
+- ORDER BY
+- COUNT
+- DISTINCT
+- CAST
+- DATENAME
+- DATEPART
+- MONTH
+- QUARTER
+- DAY
+- HOUR
+- DECIMAL
+- Common Table Expressions (CTE)
+- PARTITION Functions
+
+SQL queries are used to answer business questions and prepare clean, structured data for dashboard reporting.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 📊 Power BI Dashboard
+
+The Power BI dashboard provides an interactive view of the bank's loan portfolio, allowing users to monitor lending performance, borrower behavior, and repayment trends through multiple dashboard pages.
+
+The dashboard is connected directly to Microsoft SQL Server and presents business insights using KPIs, charts, maps, and detailed reports.
+## 📈 Dashboard Pages
+
+### Dashboard 1 – Summary
+
+The Summary Dashboard provides high-level Key Performance Indicators (KPIs) for monitoring the overall loan portfolio.
+
+Features:
+
+- Total Loan Applications
+- Month-to-Date (MTD) Loan Applications
+- Month-over-Month (MoM) Loan Applications
+- Total Funded Amount
+- MTD Funded Amount
+- Total Amount Received
+- MTD Amount Received
+- Average Interest Rate
+- Average Debt-to-Income (DTI)
+- Good Loan Analysis
+- Bad Loan Analysis
+- Loan Status Grid View
+
+------------------------------------------
+
+### Dashboard 2 – Overview
+
+The Overview Dashboard presents interactive visualizations to analyze lending trends and borrower characteristics.
+
+Visuals include:
+
+- Monthly Trends by Issue Date (Line Chart)
+- Regional Analysis by State (Filled Map)
+- Loan Term Analysis (Donut Chart)
+- Employment Length Analysis (Bar Chart)
+- Loan Purpose Breakdown (Bar Chart)
+- Home Ownership Analysis (Tree Map)
+
+These visuals display:
+
+- Total Loan Applications
+- Total Funded Amount
+- Total Amount Received
+
+------------------------------------------
+
+### Dashboard 3 – Details
+
+The Details Dashboard provides a comprehensive tabular view of loan records.
+
+Purpose:
+
+- View detailed loan information
+- Analyze borrower profiles
+- Monitor loan portfolio
+- Access all important loan metrics in one place
+- Support detailed business analysis
+-------------------------------------------
