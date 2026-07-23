@@ -178,3 +178,88 @@ Purpose:
 - Access all important loan metrics in one place
 - Support detailed business analysis
 -------------------------------------------
+## 💡 What Can Users Do?
+
+Using the dashboard, users can:
+
+- Monitor overall loan performance.
+- Track loan applications over time.
+- Analyze funded and received loan amounts.
+- Compare Good Loans and Bad Loans.
+- Measure average interest rates and DTI ratios.
+- Identify lending trends by month.
+- Analyze loan distribution across different states.
+- Evaluate loan performance based on employment length.
+- Understand the purpose of loans requested by customers.
+- Study home ownership patterns among borrowers.
+- Explore detailed loan records for business reporting.
+----------------------------------------------------------
+
+## 📈 Key Performance Indicators (KPIs)
+
+The dashboard tracks several important business KPIs to evaluate the bank's lending performance.
+
+### Overall KPIs
+
+- Total Loan Applications
+- Total Funded Amount
+- Total Amount Received
+- Average Interest Rate
+- Average Debt-to-Income (DTI)
+
+### Time-Based KPIs
+
+- Month-to-Date (MTD) Loan Applications
+- Month-to-Date Funded Amount
+- Month-to-Date Amount Received
+- Month-over-Month (MoM) Growth Analysis
+
+### Loan Quality KPIs
+
+- Good Loan Percentage
+- Good Loan Applications
+- Good Loan Funded Amount
+- Good Loan Amount Received
+
+- Bad Loan Percentage
+- Bad Loan Applications
+- Bad Loan Funded Amount
+- Bad Loan Amount Received
+----------------------------------------------
+## 📊 Business Insights
+
+The dashboard enables business users to gain valuable insights into the bank's loan portfolio.
+
+Users can:
+
+- Monitor overall lending performance.
+- Analyze monthly loan trends.
+- Compare loan funding and repayment.
+- Identify Good Loans and Bad Loans.
+- Evaluate customer borrowing behavior.
+- Analyze regional loan distribution.
+- Understand loan purposes.
+- Analyze borrowers based on employment length.
+- Study home ownership patterns.
+- Monitor portfolio health using KPIs.
+- ----------------------------------------------
+## 💻 Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| MYSQL | Database creation, data cleaning, querying, and analysis |
+|  SQL development and query execution |
+| Power BI | Dashboard development and data visualization |
+| Microsoft Excel | Source dataset |
+-------------------------------------------------
+## 🔄 Project Workflow
+
+1. Import the loan dataset into MYSQL.
+2. Create the database and tables.
+3. Clean and transform the data using SQL.
+4. Write SQL queries to solve business problems.
+5. Connect SQL  to Power BI.
+6. Create data models.
+7. Develop KPI measures.
+8. Design interactive dashboards.
+9. Analyze loan performance and generate business insights.
